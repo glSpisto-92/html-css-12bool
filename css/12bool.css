@@ -21,12 +21,12 @@
 .debug .col-1, .debug .col-2, .debug .col-3, .debug .col-4, .debug .col-5, .debug .col-6,
 .debug .col-7, .debug .col-8, .debug .col-9, .debug .col-10, .debug .col-11, .debug .col-12{
   border: 1px solid black;
-  height: 160px;
 }
 
 /* sezione colonne 12bool */
 [class*= 'col-'] {
   float: left;
+  height: 160px;
 }
 
 .col-1{

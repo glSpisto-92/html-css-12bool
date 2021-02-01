@@ -1,9 +1,20 @@
 /* property box color */
 .color{
-  background: lightgreen;
+  background: #ff4d4d;
 }
 
 .container{
   text-align: center;
   background: pink;
+  position: relative;
+}
+
+.pad{
+  padding: 10px;
+}
+
+.col-6 [class*='col-'] {
+  height: 100%;
+  border: 1px solid white;
+  padding: 10px;
 }
